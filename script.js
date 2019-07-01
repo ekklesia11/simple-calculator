@@ -102,7 +102,7 @@ function getEnter(event) {
         } 
     }
     // console.log(num);
-    processing.innerText = '';
+    // processing.innerText = '';
     result.innerText = num;
 }
 
