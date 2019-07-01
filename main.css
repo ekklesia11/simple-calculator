@@ -1,0 +1,74 @@
+#calculator {
+    width: 340px;
+    height: 510px;
+    border: 5px solid #000;
+    margin: auto;
+    margin-top: 30px;
+}
+#screen {
+    width: 320px;
+    height: 70px;
+    border: 1px solid #000;
+    position: relative;
+    margin: 10px auto;
+    background: #000;
+}
+#result {
+    font-size: 2em;
+    margin: 10px 0px 0px 15px;
+    width: 300px;
+    height: 40px;
+    color: #fff;
+}
+#processing {
+    font-size: 1em;
+    margin: 0px 5px 0px 0px;
+    position: relative;
+    text-align: right;
+    color: #ccc;
+}
+
+/* 연산자 */
+#operators {
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+.operator {
+    width: 49px;
+    height: 48px;
+    margin: 5.5px;
+    font-size: 2em;
+    border: 2px solid #000;
+}
+.operator:hover {
+    background: rgb(255, 228, 232);
+}
+
+/* 숫자패드 */
+#numberPad {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+.number {
+    width: 90px;
+    height: 70px;
+    margin: 7px;
+    font-size: 2em;
+    border: 2px solid #000;
+}
+.number:hover {
+    background:#DCFFFB;
+}
+
+/* version */
+#version {
+    text-align: right;
+    font-size: 12px;
+    position: relative;
+    bottom: 1px;
+    right: 15px;
+    margin: auto;
+}
